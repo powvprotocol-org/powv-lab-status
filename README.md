@@ -106,6 +106,18 @@ It is not currently presented as:
 - a field-ready industrial or cyber-physical system;
 - a replacement for secure hardware, regulated controls, or independent assurance.
 
+## Dated status records
+
+Status is recorded in separate, dated entries. Each entry has its own scope. Later entries add to the record; they do not replace or re-validate earlier entries.
+
+| Date | Record | Scope |
+| --- | --- | --- |
+| September 6, 2026 | [Software validation snapshot](https://github.com/powvprotocol-org/powv-governance-and-docs/blob/main/powvprotocol-org/powv-protocol-docs/powv-protocol-documentation/untitled/project-status/validation-evidence.md) | Selected software test cases; no physical hardware |
+| September 18, 2026 | [Physical integration record](https://github.com/powvprotocol-org/powv-scale-edge-integration/blob/main/docs/integration-module/experimental-record.md) | Controlled laboratory acquisition and local edge transport |
+| November 20, 2026 | [Software engineering update](status/2026-11-software-engineering-update.md) | Experimental, unmerged software hardening, conformance and contract-governance work; no physical hardware |
+
+The maturity classification above remains current. The November 2026 work is experimental and does not change it.
+
 ## Production-readiness gap
 
 A production system would require, at minimum:
