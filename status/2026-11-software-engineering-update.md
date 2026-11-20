@@ -1,8 +1,8 @@
 # November 2026 Software Engineering Status Update
 
-**Date:** November 20, 2026
-**Scope:** Software engineering in the access-controlled PoWV Virtual Lab repository
-**Status of the work described:** **Experimental.** Unmerged, unreleased and not production-qualified.
+- **Date:** November 20, 2026
+- **Scope:** Software engineering in the access-controlled PoWV Virtual Lab repository
+- **Status of the work described:** **Experimental.** Unmerged, unreleased and not production-qualified.
 
 > This update is a public-safe, capability-level summary. It does not disclose:
 >
@@ -50,7 +50,7 @@ At capability level, the work addresses:
 - **Independent verification at the audit boundary.** The audit component verifies submitted evidence itself.
 - **Stricter input handling.** Unsupported or malformed evidence is rejected before it is processed further.
 - **Versioned audit integrity.** A new, additive integrity version strengthens tamper detection of the local audit history. Records created under the earlier version are preserved unchanged.
-- **Evidence admissibility levels.** Accepted evidence is labelled by what was actually verified. Three properties are kept distinct:
+- **Evidence admissibility levels.** Accepted evidence is labeled by what was actually verified. Three properties are kept distinct:
   - **digital evidence admissibility**, which software verification can assess;
   - **physical measurement accuracy**, which it cannot;
   - **secure key custody**, which it cannot either.
@@ -82,7 +82,7 @@ A versioned conformance suite was created for one existing protocol serializatio
 
 This is internal engineering verification by the project. It is **not** independent third-party testing, an audit or a certification.
 
-The exercise also identified several points where the rule needs a more explicit written specification before a future version. These points are recorded privately. They did not change existing behaviour.
+The exercise also identified several points where the rule needs a more explicit written specification before a future version. These points are recorded privately. They did not change existing behavior.
 
 The independent implementations are **verification tools**. They are not firmware, are not deployed and do not run on embedded hardware. Using them on an embedded target would require separate re-validation.
 
@@ -108,7 +108,7 @@ A **provisional** contract register is being developed for the parts of the prot
 
 | Area | Status |
 | --- | --- |
-| Software change sets (security hardening, bench readiness, commemorative test material, conformance suite, contract governance) | **Experimental: multiple unmerged change sets. Not approved releases.** |
+| Software change sets (security hardening, bench readiness, conformance suite and versioned conformance material, contract governance) | **Experimental: multiple unmerged change sets. Not approved releases.** |
 | Contracts | **Provisional.** None approved |
 | Cross-language conformance | Verified in a controlled software environment |
 | Bench procedures for a future physical run | Prepared and rehearsed in software. **Not executed** |
